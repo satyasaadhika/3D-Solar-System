@@ -2,7 +2,6 @@
 
 A fully interactive and responsive 3D solar system simulation built using **Three.js** and **JavaScript**. This project visually represents our solar system with animated planet orbits, starry background, and adjustable orbital speeds.
 
-##  Demo Video
 ![Solar System Preview](https://github.com/user-attachments/assets/9050127d-2331-44e8-a184-6c522633b1f7)
 
 ##  Live Demo
