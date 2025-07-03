@@ -100,25 +100,12 @@ body {
 /* Responsive Styles */
 @media (max-width: 768px) {
   #controls {
-    top: auto;
-    bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 90%;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  #controls label {
-    width: 45%;
-    margin: 8px;
+    display: none;
   }
 
   #toggleAnimation {
     top: auto;
-    bottom: 80px;
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
   }
