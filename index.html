@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Priyanshu Maurya - Satyasaadhika" />
+  <meta name="description" content="A fully interactive 3D solar system simulation built using Three.js." />
+  <meta name="keywords" content="Three.js, 3D Solar System, Orbit Animation, JavaScript Project, Responsive Webpage, WebGL" />
+  <meta property="og:title" content="3D Solar System Simulation" />
+  <meta property="og:description" content="A professional and responsive 3D solar system built with Three.js and JavaScript." />
+  <meta property="og:type" content="website" />
+  <title>3D Solar System</title>
+  <!-- CSS FILE LINK -->
+  <link rel="stylesheet" href="style.css">
+  <!-- THREE.JS LINK -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <div id="controls">
+    <h3>Control Planet Speeds</h3>
+    <label>Mercury: <input type="range" id="Mercury" min="0.001" max="0.1" step="0.001" value="0.03"></label>
+    <label>Venus: <input type="range" id="Venus" min="0.001" max="0.1" step="0.001" value="0.02"></label>
+    <label>Earth: <input type="range" id="Earth" min="0.001" max="0.1" step="0.001" value="0.01"></label>
+    <label>Mars: <input type="range" id="Mars" min="0.001" max="0.1" step="0.001" value="0.008"></label>
+    <label>Jupiter: <input type="range" id="Jupiter" min="0.001" max="0.1" step="0.001" value="0.006"></label>
+    <label>Saturn: <input type="range" id="Saturn" min="0.001" max="0.1" step="0.001" value="0.004"></label>
+    <label>Uranus: <input type="range" id="Uranus" min="0.001" max="0.1" step="0.001" value="0.003"></label>
+    <label>Neptune: <input type="range" id="Neptune" min="0.001" max="0.1" step="0.001" value="0.002"></label>
+  </div>
+  <button id="toggleAnimation"> Pause</button>
+  <div id="canvas-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
