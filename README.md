@@ -33,3 +33,14 @@ A fully interactive and responsive 3D solar system simulation built using **Thre
 ├── index.html # Main HTML structure
 ├── style.css # Custom styles and responsiveness
 ├── script.js # JavaScript logic and Three.js setup
+
+
+---
+
+## 🔧 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/satyasaadhika/3D-Solar-System.git
+   cd 3D-Solar-System
+
